@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helping the Community</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E6F7FF;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #B3E0FF;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #005B99;
+        }
+        main {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            color: #005B99;
+        }
+        .donation-form {
+            background-color: #D9F2FF;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .donation-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .donation-form input, .donation-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #005B99;
+            border-radius: 4px;
+        }
+        .donation-form button {
+            background-color: #005B99;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .donation-form button:hover {
+            background-color: #003D66;
+        }
+        footer {
+            background-color: #B3E0FF;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Helping the Community</h1>
+    </header>
+    <main>
+        <section class="section">
+            <h2>About Us</h2>
+            <p>Our mission is to support the community by providing help to those in need. We focus on assisting poor people and offering education opportunities to street children.</p>
+        </section>
+        <section class="section">
+            <h2>Our Goals</h2>
+            <ul>
+                <li>Provide essential resources to poor families</li>
+                <li>Offer educational programs for street children</li>
+                <li>Create a network of support for those in need</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Make a Donation</h2>
+            <div class="donation-form">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="amount">Donation Amount:</label>
+                    <input type="number" id="amount" name="amount" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                    <button type="submit">Donate Now</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Helping the Community. All rights reserved.</p>
+    </footer>
+</body>
+</html>
